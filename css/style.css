@@ -1,0 +1,135 @@
+/* Global */
+
+* {
+	/* #2 #font #faces */
+	font-family: 'Arial', sans-serif;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+	/* #2 #colorful #background */
+	background-color: #F5F5F5;
+}
+
+h1 {
+	/* #2 #colourful #app-bar */
+	background-color: #3F51B5;
+	color: white;
+}
+
+button {
+	/* #2 #colourful #plusfive */
+	background-color: #CDDC39;
+	color: black;
+}
+
+strong {
+	/* #2 #font capital #letters */
+	text-transform: uppercase;
+}
+
+
+/* App Bar */
+
+
+
+/* Channels list */
+
+ul {
+	/* Remove bullets from the list */
+	list-style-type: none;
+}
+
+/* manupulate the selected channel */
+
+ul .selected {
+	color: #3F51B5;
+	border-left: 4px solid #3F51B5;
+}
+
+/* manupulate the whole channel list (#tiles) */
+
+ul li {
+	padding: 16px;
+	height: 16px;
+	margin-bottom: 1px;
+	background-color: white;
+}
+
+/* font size of channel names */
+ul li h2 {
+	font-size: 16px;
+}
+
+/* alignment of star icons to the middle. */
+.stars {
+	vertical-align: middle;
+}
+
+/* Tab Bar */
+/* set the width of the tab bar. */
+#tab-bar {
+	width: 100%;
+}
+/* set the properties of tab buttons. */
+#tab-bar button {
+	text-align: center;
+	background-color: white;
+	border: 0;
+	margin: 0px 0px 0px 0px;
+	font-size: 13px;
+	text-transform: uppercase;
+	width: 33%;
+	height: 72px;
+	padding: 16px;
+}
+/* change the tab button's images to block elements and set margins for the same. */
+#tab-bar button img {
+	display: block;
+	margin: auto;
+	margin-bottom: 4px;
+}
+/* set the selected tab button's color and bottom border. */
+#tab-bar .selected {
+	border-bottom: 4px solid #3F51B5;
+	color: #3F51B5;
+}
+
+/* Messages */
+/* Set the width and margins of message containers. */
+.message {
+	width: 80%;
+	margin-bottom: 8px;
+	margin-left: 2.5%;
+}
+/* Set the font size for metadata. */
+.message h3 {
+	font-size: medium;
+}
+/* change the color of w3w location links to black. */
+.message h3 a {
+	color: black;
+}
+/* set the background color and padding for the message text containers. */
+.message p {
+	background-color: white;
+	padding: 16px;
+}
+/* set the background color, text color and uppercase text for +5MIN buttons. */ 
+.message button {
+	background-color: #cddc39;
+	color: black;
+	text-transform: uppercase;
+}
+/* set the font size and normal font style for the time left part of the metadata. */  
+.message em {
+	font-size: larger;
+	font-style: normal;
+}
+/* position your own message to the right side of the screen. */
+.mymsg {
+	margin-left: 17.5%;
+}
